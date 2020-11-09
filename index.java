@@ -1,3 +1,9 @@
+int x = 235;
+int y = 225;
+int w = 100;
+int h = 100;
+
+
 void setup() {
 	size(500, 500);
 }
@@ -19,7 +25,10 @@ void draw() {
   background(255);
   stroke(0);
 
-
+  ellipse(x, y, w, h)
   
+  x = x + 2;
+  y = y + 2;
+
 
 }
